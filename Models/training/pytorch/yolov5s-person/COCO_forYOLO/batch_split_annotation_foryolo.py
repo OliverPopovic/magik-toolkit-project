@@ -6,7 +6,7 @@ import shutil
 CURDIR = os.path.dirname(os.path.realpath(__file__))
 redo = True
 
-coco_data_dir = "/data/coco_2017" #your coco dataset path,  you need to change it
+coco_data_dir = "/workspace/datasets/coco2017_raw" #your coco dataset path,  you need to change it
 
 anno_sets = ["instances_train2017", "instances_val2017", "image_info_test2017"]
 anno_dir = "{}/annotations".format(coco_data_dir)
